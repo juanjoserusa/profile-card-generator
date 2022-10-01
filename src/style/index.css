@@ -1,5 +1,5 @@
 .filters {
-  background: white;
+  background: rgb(205, 198, 198);
   width: 100%;
 }
 .filters li {
@@ -23,9 +23,10 @@
   width: 300px;
   height: 350px;
   margin: 50px auto;
-  background: #fff;
+  background: rgb(255, 255, 255);
   border-radius: 5px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgb(250, 114, 114);
 }
 .widget .cover {
   height: 160px;
@@ -44,7 +45,7 @@
   width: 100px;
   height: 100px;
   margin: 0 0 0 -55px;
-  border: 5px solid #fff;
+  border: 2px solid rgb(0, 0, 0);
   border-radius: 50%;
 }
 .widget h1,
@@ -56,7 +57,7 @@
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 300;
-  color: #999;
+  color: rgb(0, 0, 0);
 }
 .widget h1 {
   margin: 60px 0 20px;
@@ -68,15 +69,15 @@
 }
 .widget ul {
   position: absolute;
-  top: 20px;
+  top: 28px;
   padding: 0;
-  background: #2cdfd3;
+  background: rgb(250, 114, 114);
 }
 .widget ul.position-left {
-  left: -26px;
+  left: -28px;
 }
 .widget ul.position-right {
-  right: -27px;
+  right: -28px;
 }
 .widget ul li {
   list-style: none;
